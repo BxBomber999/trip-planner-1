@@ -14,7 +14,7 @@ markerEl.style.backgroundImage = 'url(http://i.imgur.com/D9574Cu.png)'
     markerEl.style.backgroundImage = 'url(http://i.imgur.com/cqR6pUI.png)'
 }
 
-new mapboxgl.Marker(markerEl).setLngLat([-74.009151, 40.705086]).addTo(map)
+new mapboxgl.Marker(markerEl).setLngLat(coordsArr).addTo(map)
 
 }
 

@@ -6,11 +6,12 @@ body {
   margin: 0;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   background-color: #C1B5AD;
+  display: flex;
 }
 
 #map {
   height: 100vh;
-  width: 100vw;
+  width: 80vw;
 }
 
 header {
@@ -18,7 +19,7 @@ header {
   justify-content: flex-start;
   align-items: center;
   position: fixed;
-  width: 100vw;
+  width: 80vw;
   background-color: #e6eeff;
   color: black;
   z-index: 2;
@@ -36,7 +37,7 @@ header:hover {
   padding: 5px;
 }
 
-#logo {
+#logo img{
   font-size: 1.5em;
   height: 2em;
   margin: 0 1.5em 0 1em;
@@ -44,16 +45,14 @@ header:hover {
 }
 
 .infobox {
-  height: 100px;
-  width: 100px;
-  background-color: gold;
   flex-grow: 1;
+  width: 20vw;
+  background-color:rgb(188, 191 196);
 }
 
 #infobox-container {
   display: flex;
   flex-direction: column;
-  width: 20vw
 }
 
 #main {
@@ -62,7 +61,13 @@ header:hover {
 }
 
 .drop-container {
-  background-color: dimgrey;
+  background-color: rgb(90,100, 117);
   padding: 10px 10px 10px 10px;
-  margin: 10px 10px 10px 10px
+  margin: 10px 10px 10px 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.dropdown {
+align-self: stretch;
 }
