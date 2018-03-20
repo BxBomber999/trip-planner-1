@@ -47,11 +47,13 @@ header:hover {
   height: 100px;
   width: 100px;
   background-color: gold;
+  flex-grow: 1;
 }
 
 #infobox-container {
   display: flex;
   flex-direction: column;
+  width: 20vw
 }
 
 #main {
@@ -59,4 +61,8 @@ header:hover {
   justify-content: flex-end;
 }
 
-
+.drop-container {
+  background-color: dimgrey;
+  padding: 10px 10px 10px 10px;
+  margin: 10px 10px 10px 10px
+}
